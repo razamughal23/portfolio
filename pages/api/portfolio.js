@@ -122,8 +122,8 @@ const portfolio = [
       },
     ],
   },
-  {
-    /*
+
+  /*
   {
     id: 6,
     projectName: "Company Needs",
@@ -167,7 +167,6 @@ const portfolio = [
     ],
   },
 */
-  },
 ];
 export default function handler(req, res) {
   res.status(200).json(portfolio);
