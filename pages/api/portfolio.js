@@ -123,6 +123,8 @@ const portfolio = [
     ],
   },
   {
+    /*
+  {
     id: 6,
     projectName: "Company Needs",
     url: "",
@@ -163,6 +165,8 @@ const portfolio = [
         tech: "Bootstrap CSS",
       },
     ],
+  },
+*/
   },
 ];
 export default function handler(req, res) {
