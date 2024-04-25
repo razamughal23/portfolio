@@ -122,13 +122,11 @@ const portfolio = [
       },
     ],
   },
-
-  /*
   {
     id: 6,
     projectName: "Company Needs",
-    url: "",
-    image: "",
+    url: "https://company-needs-front-end.vercel.app/",
+    image: "projects/companyneeds.png",
     projectDetail: "",
     technologiesUsed: [
       {
@@ -148,6 +146,7 @@ const portfolio = [
       },
     ],
   },
+  /*
   {
     id: 7,
     projectName: "Urdu Live News",
