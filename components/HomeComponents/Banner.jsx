@@ -1,6 +1,5 @@
 import Typewriter from "typewriter-effect";
 import BannerLayout from "../Common/BannerLayout";
-import { Link } from "react-scroll";
 
 const Banner = () => {
   return (
@@ -11,7 +10,7 @@ const Banner = () => {
             <div className="">
               <div className="">
                 <h1 className="text-3xl sm:text-4xl xl:text-5xl text-Snow font-bold">
-                  Hello, Check This Out!
+                  Hello, Welcome to my Portfolio!
                 </h1>
               </div>
               <div className="">
@@ -27,7 +26,7 @@ const Banner = () => {
                       <span className="inline-block">
                         <Typewriter
                           options={{
-                            strings: ["Next.Js Developer"],
+                            strings: ["Website Developer"],
                             autoStart: true,
                             loop: true,
                           }}
@@ -42,16 +41,6 @@ const Banner = () => {
                   </span>
                 </div>
               </div>
-              <Link
-                to="intro"
-                spy={true}
-                smooth={true}
-                duration={500}
-                offset={-50}
-                className="button"
-              >
-                Explore
-              </Link>
             </div>
             <div className="w-48 h-52 relative hidden md:block">
               <img
@@ -84,7 +73,6 @@ const Banner = () => {
             </span>
             <span className="text-xs text-Snow">Honors & Awards</span>
           </div>
-          
         </div>
       </div>
     </BannerLayout>

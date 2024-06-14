@@ -5,6 +5,8 @@ export const DESIGNATION = `Front End Develper | React Js | Next Js | MUI`;
 export const DETAILS = {
   Residence: "Dubai, UAE",
   Nationality: "Pakistani",
+  Experince: "4+ years",
+  Education: "BSCS",
   City: "Lahore",
   Age: "26",
 };
