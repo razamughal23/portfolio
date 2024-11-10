@@ -1,17 +1,21 @@
 export const NAME = "Raza Sabir";
 
-export const DESIGNATION = `Front End Develper | React Js | Next Js | MUI`;
+export const DESIGNATION = `Senior Front End Develper || React Js || Next Js || Strapi CMS || MUI`;
 
 export const DETAILS = {
   Residence: "Dubai, UAE",
   Nationality: "Pakistani",
-  Experince: "4+ years",
+  Experince: "5+ years",
   Education: "BSCS",
   City: "Lahore",
   Age: "26",
 };
 
 export const SKILLS = [
+  {
+    title: "HTML/CSS",
+    level: "100%",
+  },
   {
     title: "React Js Developer",
     level: "95%",
@@ -30,7 +34,7 @@ export const SKILLS = [
   },
   {
     title: "GitHub",
-    level: "95%",
+    level: "100%",
   },
   {
     title: "Backend Developer",
@@ -47,17 +51,19 @@ export const TECH_STACK = [
   "SCSS",
   "TailwindCSS",
   "Material UI",
+  "Media Queries",
+  "Jira",
   "GraphQL API",
+  "Figma",
+  "Manual QA Testing",
   "Git",
   "GitHub",
-  "Jira",
-  "Figma",
   "Adobe XD",
   "Coral Draw",
 ];
 
 export const CONTACTS = {
-  EMAIL: "razasabir23@icloud.com",
+  EMAIL: "razasabir23@outlook.com",
   PHONE: "+92 320 0430489 / +971 54 3207229",
 };
 export const SOCIAL_LINKS = {

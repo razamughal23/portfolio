@@ -146,12 +146,11 @@ const portfolio = [
       },
     ],
   },
-  /*
   {
     id: 7,
-    projectName: "Urdu Live News",
-    url: "",
-    image: "",
+    projectName: "Q-Gaming",
+    url: "https://qgaming.ae/",
+    image: "projects/qgaming.png",
     projectDetail: "",
     technologiesUsed: [
       {
@@ -165,7 +164,123 @@ const portfolio = [
       },
     ],
   },
-*/
+  {
+    id: 8,
+    projectName: "Bahidh Al-Khair",
+    url: "https://bahidh.com/",
+    image: "projects/bahidh.png",
+    projectDetail: "",
+    technologiesUsed: [
+      {
+        tech: "HTML",
+      },
+      {
+        tech: "CSS",
+      },
+      {
+        tech: "Bootstrap CSS",
+      },
+    ],
+  },
+  {
+    id: 9,
+    projectName: "DhanDhoom",
+    url: "https://dhandhoom.com/",
+    image: "projects/dhandhoom.png",
+    projectDetail: "",
+    technologiesUsed: [
+      {
+        tech: "HTML",
+      },
+      {
+        tech: "CSS",
+      },
+      {
+        tech: "Bootstrap CSS",
+      },
+    ],
+  },
+  {
+    id: 10,
+    projectName: "ArabMec",
+    url: "https://arabmec.com/",
+    image: "projects/arabmec.png",
+    projectDetail: "",
+    technologiesUsed: [
+      {
+        tech: "HTML",
+      },
+      {
+        tech: "CSS",
+      },
+      {
+        tech: "Bootstrap CSS",
+      },
+    ],
+  },
+  {
+    id: 11,
+    projectName: "Millionaire IQ",
+    url: "https://millionaire.iq/en",
+    image: "projects/millionaireIQ.png",
+    projectDetail: "",
+    technologiesUsed: [
+      {
+        tech: "Next JS",
+      },
+      {
+        tech: "Strapi",
+      },
+      {
+        tech: "Scss",
+      },
+      {
+        tech: "Helio Gaming",
+      },
+      {
+        tech: "Rest API's",
+      },
+    ],
+  },
+  {
+    id: 12,
+    projectName: "Mahzooz",
+    url: "https://millionaire.iq/en",
+    image: "projects/mahzooz.png",
+    projectDetail: "",
+    technologiesUsed: [
+      {
+        tech: "Next JS",
+      },
+      {
+        tech: "Strapi",
+      },
+      {
+        tech: "Scss",
+      },
+      {
+        tech: "Helio Gaming",
+      },
+      {
+        tech: "Rest API's",
+      },
+    ],
+  },
+  {
+    id: 12,
+    projectName: "Fifth Designs",
+    url: "https://www.fifthdesigns.com/ae/",
+    image: "projects/fifthdesign.png",
+    projectDetail: "",
+    technologiesUsed: [
+      {
+        tech: "React JS",
+      },
+      {
+        tech: "Material UI",
+      },
+    ],
+  },
 ];
 export default function handler(req, res) {
   res.status(200).json(portfolio);
